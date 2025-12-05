@@ -1,128 +1,208 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hujat Nazari - E-Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background-color: #004080;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    nav {
-      background-color: #003366;
-      display: flex;
-      justify-content: center;
-    }
-    nav a {
-      color: white;
-      padding: 14px 20px;
-      text-decoration: none;
-      display: block;
-    }
-    nav a:hover {
-      background-color: #002244;
-    }
-    section {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-      background-color: white;
-      margin-top: 20px;
-      border-radius: 8px;
-    }
-    footer {
-      text-align: center;
-      padding: 10px;
-      background-color: #004080;
-      color: white;
-      margin-top: 20px;
-    }
-    .artifact {
-      margin-bottom: 20px;
-    }
-    .artifact h4 {
-      margin-bottom: 5px;
-    }
-  </style>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Hujat Nazari | Portfolio</title>
+  <link href='https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap' rel='stylesheet'>
+  <link rel='stylesheet' href='style.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'>
 </head>
 <body>
-  <header>
-    <h1>Hujat Nazari</h1>
-    <p>Computer Systems Technology Student | Saskatchewan Polytechnic</p>
-  </header>
-
-  <nav>
-    <a href="#about">About Me</a>
-    <a href="#contact">Contact</a>
-    <a href="#skills">Skills & Experience</a>
-    <a href="#artifacts">Artifacts</a>
+ 
+<header class="header">
+  <h1 class="title">Hujat Nazari</h1>
+  <p class="subtitle">IT Support |    Help Desk Technician |     Tech Enthusiast</p>
+  <nav class="nav">
+    <a hrefbout</a>
+      <nav class='nav'>
+        <a href='#about'>About</a>
+        <a href='#skills'>Skills</a>
+        <a href='#projects'>Projects</a>
+        <a href='#contact'>Contact</a>
+      </nav>
+    <skillsSkills</a>
   </nav>
+</body>
+</header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I'm Hujat Nazari, a passionate Computer Systems Technology student at Saskatchewan Polytechnic, graduating in 2027. I thrive in fast-paced environments and enjoy solving technical problems. My experience ranges from IT support and help desk services to programming and network configuration. I’m excited to contribute to innovative tech teams and continue growing as a systems support professional.</p>
-  </section>
 
-  <section id="contact">
-    <h2>Contact Information</h2>
-    <p>Email: haji313nf@gmail.com</p>
-    <p>Phone: (639) 470-1290</p>
-    <p>LinkedIn: https://linkedin.com/in/hujatnazari</p>
-    <p>GitHub: <a href="https://github.com/hujatnazari" target="_blank">github.com/hujatnazari</a></p>
-  </section>
+  <!-- About Section -->
+ 
 
-  <section id="skills">
-    <h2>Skills & Experience</h2>
-    <h3>Technical Skills</h3>
-    <ul>
-      <li><strong>Operating Systems:</strong> Windows installation, configuration, troubleshooting</li>
-      <li><strong>Networking:</strong> IP setup, DHCP, TCP/IP, LAN design, hardware troubleshooting</li>
-      <li><strong>Programming:</strong> Java, JavaScript, HTML, CSS</li>
-      <li><strong>Web & Mobile Development:</strong> Basic interactive websites and mobile apps</li>
-      <li><strong>Hardware & Software:</strong> Device drivers, diagnostics, installation, repair</li>
-      <li><strong>Systems Support:</strong> End-user support, systems analysis</li>
-    </ul>
-    <h3>Employability Skills</h3>
-    <ul>
-      <li>Leadership and management</li>
-      <li>Problem solving and multitasking</li>
-      <li>Client-focused communication</li>
-      <li>Initiative and time management</li>
-      <li>Team collaboration</li>
-      <li>Fast learner and detail-oriented</li>
-    </ul>
-  </section>
 
-  <section id="artifacts">
-    <h2>Artifacts</h2>
-    <div class="artifact">
-      <h4>Windows Installation & Configuration</h4>
-      <p>During my practicum at Open Door Society, I installed and configured Windows operating systems for staff and clients. This experience sharpened my troubleshooting skills and taught me how to manage desktop environments efficiently.</p>
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p class="about-text">
+    I am an IT enthusiast passionate about leveraging technology to solve real-world problems.
+    My career goal is to build expertise across diverse IT domains, including networking, systems administration,
+    cybersecurity, and web development. I aim to create scalable, secure, and user-friendly web solutions while
+    contributing to innovative and efficient technology systems.
+  </p>
+
+  <!-- Resume link at the bottom with a small thread above -->
+  <div class="resume-bottom">
+    <div class="resume-thread-min" aria-hidden="true"></div>
+    <div class="resume-knot-min" aria-hidden="true"></div>
+
+    <a class="btn resume-btn" href="resume.pdf" aria-hidden="true"></i>
+      View Resume (PDF)
+    </a>
+  </div>
+</section>
+
+
+
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2 class="section-title">Skills & Experience</h2>
+    <div class="skills-grid">
+      <!-- IT Support -->
+      <div class="skill-card has-image">
+        <div class="card-content">
+          <i class="fas fa-tools"></i>
+          <h3>IT Support</h3>
+          <p>Hardware/Software Installation, Troubleshooting</p>
+        </div>
+        <div class="card-media" style="background-image: url('https://images.unsplash.com/photo-1525182008055-f88b95ff7980?q=80&w=1200&auto=format&fit=crop');"></div>
+      </div>
+
+      <!-- Networking -->
+      <div class="skill-card has-image">
+        <div class="card-content">
+          <i class="fas fa-network-wired"></i>
+          <h3>Networking</h3>
+          <p>TCP/IP, DHCP, LAN/WAN</p>
+        </div>
+        <div class="card-media" style="background-image: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1200&auto=format&fit=crop');"></div>
+      </div>
+
+      <!-- Operating Systems -->
+      <div class="skill-card has-image">
+        <div class="card-content">
+          <i class="fas fa-server"></i>
+          <h3>Operating Systems</h3>
+          <p>Windows, Linux Administration</p>
+        </div>
+        <div class="card-media" style="background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop');"></div>
+      </div>
+
+      <!-- Cybersecurity -->
+      <div class="skill-card has-image">
+        <div class="card-content">
+          <i class="fas fa-shield-alt"></i>
+          <h3>Cybersecurity</h3>
+          <p>System Hardening, Security Practices</p>
+        </div>
+        <div class="card-media" style="background-image: url('https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1200&auto=format&fit=crop');"></div>
+      </div>
+
+      <!-- Database -->
+      <div class="skill-card has-image">
+        <div class="card-content">
+          <i class="fas fa-database"></i>
+          <h3>Database</h3>
+          <p>SQL Fundamentals</p>
+        </div>
+        <div class="card-media" style="background-image: url('https://images.unsplash.com/photo-1581090700227-4c4f50b4c8f3?q=80&w=1200&auto=format&fit=crop');"></div>
+      </div>
+
+      <!-- Cloud -->
+      <div class="skill-card has-image">
+        <div class="card-content">
+          <i class="fas fa-cloud"></i>
+          <h3>Cloud Services</h3>
+          <p>AWS, Azure Basics</p>
+        </div>
+        <div class="card-media" style="background-image: url('https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=1200&auto=format&fit=crop');"></div>
+      </div>
+
+      <!-- Programming -->
+      <div class="skill-card has-image">
+        <div class="card-content">
+          <i class="fas fa-code"></i>
+          <h3>Programming</h3>
+          <p>Java, Python, PowerShell</p>
+        </div>
+        <div class="card-media" style="background-image: url('https://images.unsplash.com/photo-1581090700227-4c4f50b4c8f3?q=80&w=1200&auto=format&fit=crop');"></div>
+      </div>
+
+      <!-- Web Tech -->
+      <div class="skill-card has-image">
+        <div class="card-content">
+          <i class="fas fa-globe"></i>
+          <h3>Web Technologies</h3>
+          <p>HTML, CSS, JavaScript</p>
+        </div>
+        <div class="card-media" style="background-image: url('https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?q=80&w=1200&auto=format&fit=crop');"></div>
+      </div>
     </div>
-    <div class="artifact">
-      <h4>Network Setup & Troubleshooting</h4>
-      <p>As part of my coursework and practicum, I designed LANs, configured DHCP, and resolved hardware issues. These tasks helped me understand real-world networking challenges and how to solve them effectively.</p>
-    </div>
-    <div class="artifact">
-      <h4>JavaScript Web App</h4>
-      <p>In a class project, I developed a small web application using HTML, CSS, and JavaScript. This project demonstrates my ability to create interactive user interfaces and apply programming logic to solve problems.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id='projects' class='section'>
+    <h2>My Projects</h2>
+    <div class='project-grid'>
+      <div class='project-card'>
+        <img src='.//school projects.png' alt='School Projects'>
+        <h3>School Projects</h3>
+        <p>Developed simple websites using HTML, CSS, and JavaScript as part of coursework.</p>
+        <p><strong>Reflective Statement:</strong> Gained hands-on experience in front-end development and teamwork.</p>
+      </div>
+      <div class='project-card'>
+        <img src='./hardware.png' alt='Hardware Project'>
+        <h3>Hardware Project</h3>
+        <p>Worked on hardware-related projects, including troubleshooting and setup.</p>
+        <p><strong>Reflective Statement:</strong> Strengthened problem-solving skills and understanding of hardware-software integration.</p>
+      </div>
+      <div class='project-card'>
+        <img src='./open door.png' alt='Open Door Society Project'>
+        <h3>Open Door Society Project</h3>
+        <p>Completed a large-scale IT setup project for 400 computers before school started. Tasks included purchasing based on needs, installing necessary apps, delivering, and setting up systems.</p>
+        <p><strong>Reflective Statement:</strong> Demonstrated project management, technical expertise, and ability to work under deadlines.</p>
+      </div>
     </div>
   </section>
 
-  <footer>
-    <p>Created by Hujat Nazari | Last updated: November 2025</p>
+  <section id='contact' class='section'>
+    <h2>Get in Touch</h2>
+    <p>Feel free to reach out for collaborations or questions!</p>
+    <form action='https://formspree.io/f/YOUR_FORM_ID' method='POST' class='contact-form'>
+      <input type='text' name='name' placeholder='Your Name' required>
+      <input type='email' name='email' placeholder='Your Email' required>
+      <textarea name='message' placeholder='Your Message' required></textarea>
+      <button type='submit' class='btn'>Send Message</button>
+    </form>
+    <div class='social-icons'>
+      <a href='https://github.com/H-Nazari313' target='_blank'><i class='fab fa-github'></i></a>
+      <a href='https://www.linkedin.com/in/hojat-nazari-2b4958360//' target='_blank'><i class='fab fa-linkedin'></i></a>
+    </div>
+  </section>
+  
+
+  <footer class='footer'>
+    <p>&copy; 2025 Hujat Nazari | Last Edited: December 05, 2025</p>
   </footer>
+
+
+
+
+  <!-- About text per-word hover glow -->
+  <script>
+    (function () {
+      const el = document.querySelector('.about-text');
+      if (!el) return;
+
+      const text = el.textContent.trim();
+      const parts = text.split(/(\s+)/);
+      el.innerHTML = parts.map(part => {
+        if (/^\s+$/.test(part)) return part;
+        return `<span class="word">${part}</span>`;
+      }).join('');
+    })();
+  </script>
 </body>
 </html>
+
+
